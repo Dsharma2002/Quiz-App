@@ -121,7 +121,8 @@ function prevQuestions() {
             // if we already have a question displayed, remove this question
             container.removeChild(container.lastChild)
         }
-        counter--;
+        // decrement counter to show prev question
+        --counter;
         // dynamically create a new div and add question in it
         const newElement = document.createElement("div");
         newElement.classList.add("supplied-question");
@@ -157,6 +158,5 @@ function prevQuestions() {
         ansDR.type = "radio";
         newElement.append(ansDR);
         newElement.append(ansDD);
-        // increment counter 
     }
 }
