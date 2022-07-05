@@ -148,3 +148,18 @@ nav {
     align-items: center;
     margin: auto;
 }
+
+.intro span {
+    margin: auto;
+    padding: auto;
+    font-size: 2rem;
+}
+
+.fix-bottom {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: -100px;
+}
+img {
+    margin: 10px;
+}
