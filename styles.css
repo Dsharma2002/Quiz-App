@@ -163,3 +163,7 @@ nav {
 img {
     margin: 10px;
 }
+
+.hide {
+    display: none;
+}
