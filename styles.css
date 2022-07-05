@@ -109,3 +109,42 @@ nav {
 .toggle .line-3 {
     transform: rotate(45deg) translate(-2px, -9px);
 }
+
+#container {
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.show-next {
+    margin: 20px;
+    padding: 5px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    color: rgb(225, 86, 114);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px 4px 1px red;
+}
+
+.show-prev {
+    margin: 20px;
+    padding: 5px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    color: rgb(225, 86, 114);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px 4px 1px red;
+}
+
+.supplied-question {
+    font-size: 1.4rem;
+    align-items: center;
+    margin: auto;
+}
